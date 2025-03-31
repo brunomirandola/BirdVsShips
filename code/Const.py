@@ -9,6 +9,7 @@ C_CYAN = (0, 128, 128)
 
 #E
 EVENT_ENEMY = pygame.USEREVENT + 1
+EVENT_TIMEOUT = pygame.USEREVENT + 2
 
 ENTITY_HEALTH = {
     'Level1Bg0': 999,
@@ -110,6 +111,13 @@ ENTITY_SHOT_DELAY = {
     'Enemy2' : 150,
 }
 
+# M
+MENU_OPTION = ('NEW GAME 1P',
+               'NEW GAME 2P - COOPERATIVE',
+               'SCORE',
+               'EXIT')
+
+
 # P
 PLAYER_KEY_UP = {'Player1': pygame.K_UP,
                  'Player2': pygame.K_w}
@@ -125,11 +133,9 @@ PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
 # S
 SPAWN_TIME = 4000
 
-# M
-MENU_OPTION = ('NEW GAME 1P',
-               'NEW GAME 2P - COOPERATIVE',
-               'SCORE',
-               'EXIT')
+#T
+TIMEOUT_STEP = 100  # 100ms
+TIMEOUT_LEVEL = 20000  # 20s
 
 #W
 WIN_WIDTH = 576
