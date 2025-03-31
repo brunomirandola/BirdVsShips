@@ -46,8 +46,20 @@ ENTITY_SPEED = {
     'Level2Bg3': 3,
     'Player1' : 2,
     'Player2' : 2,
-    'Enemy1' : 3,
-    'Enemy2' : 3,
+    'Enemy1' : 1,
+    'Enemy2' : 1,
+    'Player1Shot': 1,
+    'Player2Shot': 2,
+    'Enemy1Shot': 5,
+    'Enemy2Shot': 3,
+
+}
+
+ENTITY_SHOT_DELAY = {
+    'Player1' : 20,
+    'Player2' : 15,
+    'Enemy1' : 80,
+    'Enemy2' : 150,
 }
 
 # P
